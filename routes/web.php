@@ -23,3 +23,5 @@ Route::get('/logout', 'LogoutController@index')->name('logout');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/registration', 'RegistrationController@index')->name('registration');
+
